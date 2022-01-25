@@ -7,6 +7,89 @@
   pointer-events: none;
 }
 
+.product-crud-style {
+  margin-bottom: 30px;
+}
+
+.table-style {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.petShelter-style {
+  text-align: left;
+  margin-left: 3%;
+  margin-top: 2%;
+}
+
+.addPetForm-style {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+}
+
+.addPettd-style {
+  display: flex;
+}
+
+.pathese-style {
+  margin: 2rem;
+}
+
+.adopt-link {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 3%;
+}
+
+.adopdiv-style {
+  margin: 3%;
+}
+
+.fix-td {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.action-btn.details {
+  background-color: palegreen;
+  color: black;
+  margin-inline-end: 2rem;
+}
+
+.submit-cancel-btns button,
+.action-btn {
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+}
+
+.action-btn.add {
+  background-color: rgb(23, 116, 223);
+  color: white;
+}
+
+.action-btn.edit {
+  background-color: rgb(22, 137, 22);
+  margin-inline-end: 1rem;
+}
+
+.action-btn:hover,
+.action-btn:focus {
+  text-decoration: underline;
+}
+
+.table-list td {
+  padding: 1rem;
+  margin: 1rem;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
